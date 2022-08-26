@@ -1,0 +1,44 @@
+.helo div{
+	padding : 10px
+	}
+.b1{
+	background-color: blue;
+}
+
+.b2{
+	background-color: rgb(240, 33, 129);
+}
+
+.b3{
+	background-color: rgb(0, 238, 255);
+	background-image: linear-gradient('#fff' 20% , rgb(7, 91, 97) 80%);
+	background-position: 0%,5%;
+	background-size: 100% 200%;
+	transition: background-position 0.5s , color 0.5s;
+}
+.b4
+{
+	background-color: blueviolet;
+}
+a{
+	text-decoration: none;
+	padding:10px;
+	background-image: linear-gradient(rgb(194, 60, 60) 30% , rgb(123, 235, 18) 70%);
+	background-position: 10% 0%;
+ 	color:white;
+	text-decoration: none;;
+}
+.helo{
+
+	display:grid;
+	grid-auto-flow: column;
+	grid-gap:20px;
+	
+}
+a:hover{
+	background-image: linear-gradient(rgb(148, 236, 192) 30% , rgb(19, 42, 117) 70%);
+	background-position: 0% ,70%;
+
+	color:black;
+
+}
